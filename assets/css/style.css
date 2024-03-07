@@ -7,10 +7,12 @@ header::before {
     left: 0;
     background-color: rgb(13, 13, 68);
     background-image: url('../img/background.png');
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
-    display: block;
+    display:block;
     z-index: -10;
 }
 
@@ -24,4 +26,17 @@ h2 {
     font-family: 'Martel Sans', sans-serif;
     font-size: 32px;
     color: #F39C6B;
+}
+
+li {
+    font-family: 'Martel Sans', sans-serif;
+    margin: 5px;
+}
+
+section {
+    margin-top: 80vh; /* Espaço acima do conteúdo (ajuste conforme necessário) */
+}
+
+ul {
+    background-color: #F2F7F2;
 }
