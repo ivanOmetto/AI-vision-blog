@@ -3,7 +3,7 @@
 
 ## Tarefas
 
-- [ ] Header
+- [x] Header
 - [ ] Apresentação
 - [ ] Noticias
 - [ ] Tendencias
