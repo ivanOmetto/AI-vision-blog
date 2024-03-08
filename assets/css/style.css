@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
+header {
+    height: 100vh;
+}
+
 header::before {
     content: "";
     position: absolute;
@@ -16,13 +20,13 @@ header::before {
     z-index: -10;
 }
 
-h1 {
+header h1 {
     font-family: 'Glegoo', sans-serif;
     font-size: 72px;
     color: #FF3864;
 }
 
-h2 {
+header h2 {
     font-family: 'Martel Sans', sans-serif;
     font-size: 32px;
     color: #F39C6B;
@@ -33,10 +37,36 @@ li {
     margin: 5px;
 }
 
-section {
-    margin-top: 80vh; /* Espaço acima do conteúdo (ajuste conforme necessário) */
-}
-
 ul {
     background-color: #F2F7F2;
 }
+
+#secao-apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    height: 100vh;
+}
+
+#secao-apresentacao img {
+    border-radius: 100%;
+}
+
+#texto-apresentacao {
+    color: #232528;
+}
+
+#texto-apresentacao h2{
+    color: #FF3864;
+    /* 16px = 1rem */
+    font-size: 3rem;
+}
+
+#texto-apresentacao p{
+    /* 16px = 1rem */
+    font-size: 1.12rem;
+}
+/* 
+#secao-noticias {
+    height: 100vh;
+} */
