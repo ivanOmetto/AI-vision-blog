@@ -4,8 +4,8 @@
 ## Tarefas
 
 - [x] Header
-- [ ] Apresentação
-- [ ] Noticias
+- [x] Apresentação
+- [x] Noticias
 - [ ] Tendencias
 - [ ] Opiniões
 
