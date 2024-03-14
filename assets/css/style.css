@@ -62,7 +62,7 @@ header h2 {
 
 #secao-noticias {
     font-family: 'Martel Sans', sans-serif;
-    height: 80vh;
+    height: 90vh;
 }
 
 #secao-noticias h2 {
@@ -71,18 +71,33 @@ header h2 {
 }
 
 #noticias {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    height: 100%;
+    gap: 5rem;
 }
 
-#noticias div{
+.card{
+    position: relative;
     background-color: #F2F7F2;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0rem 0.1rem 0.5rem gray;
+    max-width: 25rem;
+    cursor: pointer;
+    list-style: none;
+    transition: 0.3s;
 }
 
-#noticias div h3{
+.card h3{
     color: #FF3864;
+}
+
+.card img{
+    max-width: 25rem;
+}
+
+.card:hover{
+    filter: brightness(90%)
 }
