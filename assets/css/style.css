@@ -68,14 +68,13 @@ header h2 {
 #secao-noticias h2 {
     color: #000;
     font-size: 3rem;
+    margin-bottom: 0px;
 }
 
 #noticias {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    height: 100%;
-    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* place-items: center; */
 }
 
 .card{
@@ -100,4 +99,23 @@ header h2 {
 
 .card:hover{
     filter: brightness(90%)
+}
+
+form {
+    padding: 2rem 3rem;
+    max-width: 500px;
+    display: flex;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+select,
+input[type=text] {
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    padding: .5rem;
 }
