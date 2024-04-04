@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Vision</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
 
@@ -27,17 +28,18 @@
         <form>
             <div class="campo">
                 <label for="nome">Notícia</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" oninput="buscaNoticia()">
             </div>
 
             <div class="campo">
                 <label for="tipo">Empresa</label>
                 <select name="tipo" id="tipo">
-                    <option value="1">OpenAI</option>
-                    <option value="2">Google</option>
-                    <option value="3">Meta</option>
-                    <option value="4">Microsoft</option>
-                    <option value="5">Nvdia</option>
+                    <option value="1">Todos</option>
+                    <option value="2">OpenAI</option>
+                    <option value="3">Google</option>
+                    <option value="4">Meta</option>
+                    <option value="5">Microsoft</option>
+                    <option value="6">Nvdia</option>
                 </select>
             </div>
 
@@ -56,6 +58,5 @@
             </div>
         </ul>
     </section>
-
 </body>
 </html>
