@@ -33,13 +33,13 @@
 
             <div class="campo">
                 <label for="tipo">Empresa</label>
-                <select name="tipo" id="tipo">
-                    <option value="1">Todos</option>
-                    <option value="2">OpenAI</option>
-                    <option value="3">Google</option>
-                    <option value="4">Meta</option>
-                    <option value="5">Microsoft</option>
-                    <option value="6">Nvdia</option>
+                <select name="tipo" id="tipo" onchange="filtraNoticias()">
+                    <option value="Todos">Todos</option>
+                    <option value="OpenAI">OpenAI</option>
+                    <option value="Google">Google</option>
+                    <option value="Meta">Meta</option>
+                    <option value="Microsoft">Microsoft</option>
+                    <option value="Nvidia">Nvidia</option>
                 </select>
             </div>
 
@@ -55,7 +55,28 @@
                 <h3>Notícia 2</h3>
                 <p>"IA Que Promete ser Mais Poderosa que ChatGPT" - <a href="https://gemini.google.com">Google</a></p>
                 <img src="./assets/img/n2.png" alt="GEMINI">
-            </div>
+            </li>
+            <li class="card">
+                <h3>Notícia 3</h3>
+                <p>"A IA mais avançada do mundo para empresas!" - <a href="https://www.nvidia.com/pt-br/ai-data-science/">Nvidia</a></p>
+                <img src="./assets/img/n3.png" alt="NVIDIA">
+            </li>
+
+            <li class="card">
+                <h3>Notícia 4</h3>
+                <p>"Melhor IA do mundo para rastreio de imagens!" - <a href="https://co-tracker.github.io">Meta</a></p>
+                <img src="./assets/img/n4.png" alt="TRACKER">
+            </li>
+            <li class="card">
+                <h3>Notícia 5</h3>
+                <p>"IA da Microsoft para reconhecimento de falas!" - <a href="https://azure.microsoft.com/en-us/products/ai-services/ai-speech">Microsoft</a></p>
+                <img src="./assets/img/n5.png" alt="VOICE">
+            </li>
+            <li class="card">
+                <h3>Notícia 6</h3>
+                <p>"A IA que entende tudo o que você fala!" - <a href="https://openai.com/research/whisper">OpenAI</a></p>
+                <img src="./assets/img/n6.avif" alt="OPENAI">
+            </li>
         </ul>
     </section>
 </body>
